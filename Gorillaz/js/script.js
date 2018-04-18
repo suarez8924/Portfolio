@@ -11,7 +11,7 @@ var modal = document.getElementById('myModal');
 // var img7 = document.getElementById('myImg7');
 // var img8 = document.getElementById('myImg8');
 // var img9 = document.getElementById('myImg9');
-var image = document.getElementsByClassName('image')
+var image = document.querySelectorAll('image')
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
