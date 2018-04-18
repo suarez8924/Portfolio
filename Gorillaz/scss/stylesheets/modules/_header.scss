@@ -1,0 +1,48 @@
+#page1{
+  header{ 
+    display: flex;
+    width: 1000px;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: auto;
+    h1{
+      
+      margin: auto;
+      color: white;
+      padding: 10px;
+      padding-right: 140px;
+      font-family: 'Inika', serif;
+      font-weight: bold;
+      font-size: 81px;
+      letter-spacing: 8px;
+    }
+  }
+}
+
+#page2{
+  background: white;
+  
+  header{
+    background: black;
+    width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    a{
+
+      text-decoration: none;
+      text-transform: uppercase;
+      color: rgb(90, 29, 80);
+      font-family: 'Roboto Condensed', sans-serif;
+      
+      font-weight: bold;
+      text-align: left;
+    }
+    h1{
+      text-transform: uppercase;
+      font-family: 'Inika', serif;
+      color: white;
+      letter-spacing: 2px;
+      padding: 20px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "proy_dw_gorillaz",
+  "version": "1.0.0",
+  "description": "Proyecto de Gorillaz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suarez8924/Proy_DW_Gorillaz.git"
+  },
+  "author": "Javier Suárez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suarez8924/Proy_DW_Gorillaz/issues"
+  },
+  "homepage": "https://github.com/suarez8924/Proy_DW_Gorillaz#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.11"
+  }
+}
