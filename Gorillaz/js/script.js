@@ -12,11 +12,11 @@ var modal = document.getElementById('myModal');
 // var img8 = document.getElementById('myImg8');
 // var img9 = document.getElementById('myImg9');
 var image = document.getElementsByClassName('image')
-var modalImg = image[0]//document.getElementById("img01");
+var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
 for(var i = 0; i<image.length;i++){
-    image[0].onclick = function(){
+    image[i].onclick = function(){
         modal.style.display = "block";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
